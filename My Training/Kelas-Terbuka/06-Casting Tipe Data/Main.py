@@ -42,7 +42,7 @@ print("="*4, "STRING", "="*4)
 data_str = "10"
 print("data = ", data_str, ",type =", type(data_str))
 
-data_int = int(data_str) #string harus angka
+data_int = int(data_str) #string harus angka, klo kosong error
 data_bool = bool(data_str) #false jika string kosong
 data_float = float(data_str) #string harus angka
 print("data = ", data_int, ",type =", type(data_int))
