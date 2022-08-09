@@ -1,4 +1,4 @@
-# Kita belajar casting
+# hari ini Kita belajar casting
 # Merubah dari satu tipe ke tipe lain
 
 ## INTEGER
