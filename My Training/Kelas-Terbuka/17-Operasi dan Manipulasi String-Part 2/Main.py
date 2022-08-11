@@ -57,4 +57,29 @@ print(gabungan)
 gabungan = " ehm ".join(pisah)
 print(gabungan)
 
+gabungan = "akuehmsayangehmkamu"
+print(gabungan.split('ehm'))
+
+# alokasi karakter rjust(), ljust(), center()
+
+kanan = "kanan".rjust(10)
+print("'"+kanan+"'")
+
+kiri = "kiri".ljust(10)
+print("'"+kiri+"'")
+
+tengah = "tengah".center(20,"m") #string.rjust(length, character)
+print("'"+tengah+"'")
+
+# kebalikannya -> strip()
+tengah = kanan.strip()
+print("'"+tengah+"'")
+
+
+
+
+
+
+
+
 
