@@ -1,8 +1,5 @@
 # while loop
 
-from mimetypes import init
-from struct import iter_unpack
-
 
 # while kondisi:
 #     aksi ini
