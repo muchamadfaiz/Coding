@@ -1,6 +1,6 @@
 # Lambda Function
 # lambda = anonymous function
-from ast import Expression
+# from ast import Expression
 
 
 items = [
