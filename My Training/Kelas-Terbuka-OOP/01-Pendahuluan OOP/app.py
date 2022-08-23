@@ -7,7 +7,7 @@ Template --> Class --> attribute, method
 Instance --> Object
 '''
 
-class Hero: #template
+class Hero: #template / blueprint for creating object
     pass
 
 
@@ -28,6 +28,6 @@ print(hero1)
 print(hero1.__dict__)
 print(hero1.name)
 
-sniperName = "sniper"
-sniperAttack = 20
-sniperHealth = 100
+# sniperName = "sniper"
+# sniperAttack = 20
+# sniperHealth = 100
