@@ -110,13 +110,13 @@ class ManusiaMilenial(Manusia):
     def info(self): 
         print(f"nama:{self.nama}, email = {self.email}\npassword = {self.__samarkan_password()}")
 
-class Programmer(ManusiaMilenial):
+class Programmer(ManusiaMilenial): 
     def info(self): 
-        print(f"nama:{self.nama}/ email = {self.email}")
+        print(f"nama:{self.nama}/ email = {self.email}") # beda di penggunaan slash "/"
 
 class Influencer(ManusiaMilenial):
     def info(self): 
-        print(f"nama:{self.nama}| email = {self.email}")
+        print(f"nama:{self.nama}| email = {self.email}") # beda di penggunaan "|"
 
 programmer = Programmer("eka")
 programmer.set_email("ekatest.com")
