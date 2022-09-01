@@ -1,4 +1,4 @@
-# Function = callable attribute
+Function = callable attribute
 # 1. Interoduction
 class MyClass:
     # a,b dan fungsi say_hello adalah atribut class
