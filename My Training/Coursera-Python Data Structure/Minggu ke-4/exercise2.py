@@ -1,7 +1,7 @@
 fname = "mbox-short.txt"
 file = open(fname)
 count = 0
-listjumlah = []
+# listjumlah = []
 for line in file:
     line = line.strip()
     # print("line", line)
@@ -12,9 +12,9 @@ for line in file:
         continue
     if line1[0] == "From" : 
         count += 1
-        listjumlah.append(line1)
+        # listjumlah.append(line1)
         print(line1[1])
     else:
         continue
 
-print("There were {} lines in the file with From as the first word".format(len(listjumlah)))
+print("There were {} lines in the file with From as the first word".format(count))
