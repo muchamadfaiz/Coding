@@ -19,13 +19,7 @@ class TagCloud:
 
 
 cloud = TagCloud()
-cloud.add("PYTHON")
 cloud.add("python")
 cloud.add("python")
-print(cloud.tags)
-print(cloud["python"])
-cloud["python"] = 100
-cloud["ruby"] = 3
-print(cloud.tags)
-print(len(cloud.tags))
-print(iter(cloud.tags))
+cloud.add("Python")
+print(cloud['PYTHON'])
