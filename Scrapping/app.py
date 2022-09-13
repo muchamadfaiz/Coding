@@ -4,7 +4,7 @@
 from urllib.request import urlopen
 
 # 2. make variable named "url" to store a string of url web page
-url = 'http://pythonscraping.com/pages/page1.html'
+url = 'http://olympus.realpython.org/profiles/poseidon'
 
 # 3. to open a remote object across a network (can read HTML, files, images, etc)
 # and it will return a HTTPResponse object -> output = http.client.HTTPResponse object at 0x00000289E3003340
