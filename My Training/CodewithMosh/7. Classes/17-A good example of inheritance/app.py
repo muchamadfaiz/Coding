@@ -1,6 +1,3 @@
-from msilib.schema import Class
-
-
 class InvalidOperationError(Exception):
     pass
 
