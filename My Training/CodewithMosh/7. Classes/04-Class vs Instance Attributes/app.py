@@ -9,7 +9,7 @@ class Point:
         print(f"Point ({self.x}, {self.y})")
 
 
-Point.default_color = "yellow"
+Point.default_color = "yellow" # change the class variable with value "yellow"
 point = Point(1, 2)
 print(point.default_color)
 print(Point.default_color)
