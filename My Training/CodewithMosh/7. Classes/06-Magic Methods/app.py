@@ -3,7 +3,7 @@ class Point:
         self.x = x
         self.y = y
 
-    def __str__(self):  # conver an object to a string
+    def __str__(self):  # convert an object class to a string class
         return f"({self.x}, {self.y})"
 
     def draw(self):
@@ -11,4 +11,4 @@ class Point:
 
 
 point = Point(1, 2)
-print(str(point))
+print(point)
