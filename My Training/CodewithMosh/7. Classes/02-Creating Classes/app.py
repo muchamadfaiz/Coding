@@ -5,3 +5,4 @@ class Point: # use Pascal naming convention (First letter uppercase, no undersco
 point = Point()
 print(type(point))
 print(isinstance(point, Point))
+point.draw()
