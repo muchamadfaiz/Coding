@@ -3,13 +3,13 @@ class Point:
         self.x = x 
         self.y = y 
 
-    @classmethod
-    def zero(cls):
-        return cls(0, 0)
+    @classmethod # decorator for extend the behaviour of a method or function
+    def zero(cls): #whenever we define a class method we call its first parameter "cls"
+        return cls(0, 0) # exactly the same as calling Point(0,0)
 
     def draw(self): 
         print(f"Point ({self.x}, {self.y})") 
 
-point = Point.zero()
+point = Point.zero() # different from point = Point(1,2)
 point.draw()
 
