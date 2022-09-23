@@ -1,5 +1,3 @@
-from ctypes.wintypes import tagMSG
-
 
 try:
     age = int(input("age: "))
