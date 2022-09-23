@@ -3,14 +3,14 @@ class Point:
         self.x = x
         self.y = y
 
-    def __eq__(self, other):
+    def __eq__(self, other): # defines a behaviour for the equality operator "=="
         return self.x == other.x and self.y == other.y
         # return True
 
-    def __gt__(self, other):
+    def __gt__(self, other): # defines a behaviour for the equality operator ">"
         return self.x > other.x and self.y > other.y
 
-    def __lt__(self, other):
+    def __lt__(self, other): # defines a behaviour for the equality operator ">"
         return self.x < other.x and self.y < other.y
 
 
