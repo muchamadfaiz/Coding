@@ -1,5 +1,5 @@
 try:
-    open("app.py")
+    file = open("app.py")
     age = int(input("age: "))
     xfactor = 10 / age
 except (ValueError, ZeroDivisionError):
