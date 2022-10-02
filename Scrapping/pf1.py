@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from csv import writer
 
-url = "https://www.pararius.com/apartments/loon"
+url = "https://www.pararius.com/apartments/amsterdam"
 fhandle = urlopen(url)
 print(type(fhandle))
 
